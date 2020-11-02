@@ -1,7 +1,7 @@
 # Description
 AVL tree in C++
 
-This is just a toy program, not a real project. There is no remove function or interactivity.
+This is just a toy program, not a real project. There is no remove function or interactivity. Object files compiled on Ubuntu 18.04.
 # Figures
 AVL tree balancing algorithms rearrange the nodes when the left or right branch of any node becomes more than one node longer than the other side. They encounter 4 cases:
 * [Straight right heavy branch](images/AVL%20shift%20left.png)
