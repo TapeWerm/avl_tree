@@ -5,7 +5,7 @@ PROGS= avl_tree
 all: $(PROGS)
 
 avl_tree: avl_tree.cpp avl_tree.h avl_node.o
-	$(CC) $(CFLAGS) $^ -o $@
+	$(CC) $(CFLAGS) avl_tree.cpp avl_node.o -o $@
 
 zip:
 	zip avl_tree.zip *
